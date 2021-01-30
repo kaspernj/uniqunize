@@ -1,4 +1,4 @@
-module.exports = function uniqueArrayBy(array, callback) {
+module.exports = function uniqunize(array, callback) {
   const valuesSeen = []
   const uniqueArray = []
 
