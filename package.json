@@ -1,22 +1,36 @@
 {
-  "name": "@kaspernj/unique-array-by",
+  "name": "uniqunize",
   "version": "1.0.0",
-  "description": "",
   "main": "index.cjs",
   "scripts": {
     "test": "jasmine"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaspernj/unique-array-by.git"
+    "url": "git+https://github.com/kaspernj/uniqunize.git"
   },
   "author": "k@spernj.org",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kaspernj/unique-array-by/issues"
+    "url": "https://github.com/kaspernj/uniqunize/issues"
   },
-  "homepage": "https://github.com/kaspernj/unique-array-by#readme",
+  "homepage": "https://github.com/kaspernj/uniqunize#readme",
   "devDependencies": {
     "jasmine": "^3.6.4"
-  }
+  },
+  "dependencies": {
+    "balanced-match": "^1.0.0",
+    "brace-expansion": "^1.1.11",
+    "concat-map": "^0.0.1",
+    "fs.realpath": "^1.0.0",
+    "glob": "^7.1.6",
+    "inflight": "^1.0.6",
+    "inherits": "^2.0.4",
+    "jasmine-core": "^3.6.0",
+    "minimatch": "^3.0.4",
+    "once": "^1.4.0",
+    "path-is-absolute": "^1.0.1",
+    "wrappy": "^1.0.2"
+  },
+  "description": ""
 }
