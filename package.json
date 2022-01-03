@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/kaspernj/uniqunize#readme",
   "devDependencies": {
-    "jasmine": "^3.6.4"
+    "jasmine": "^4.0.0"
   },
   "dependencies": {
     "balanced-match": "^2.0.0",
