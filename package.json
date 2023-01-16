@@ -27,7 +27,7 @@
     "inflight": "^1.0.6",
     "inherits": "^2.0.4",
     "jasmine-core": "^4.0.0",
-    "minimatch": "^5.0.0",
+    "minimatch": "^6.0.3",
     "once": "^1.4.0",
     "path-is-absolute": "^2.0.0",
     "wrappy": "^1.0.2"
