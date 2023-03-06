@@ -23,7 +23,7 @@
     "brace-expansion": "^2.0.1",
     "concat-map": "^0.0.2",
     "fs.realpath": "^1.0.0",
-    "glob": "^8.0.1",
+    "glob": "^9.2.1",
     "inflight": "^1.0.6",
     "inherits": "^2.0.4",
     "jasmine-core": "^4.0.0",
