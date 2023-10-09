@@ -19,7 +19,7 @@
     "jasmine": "^5.0.0"
   },
   "dependencies": {
-    "balanced-match": "^2.0.0",
+    "balanced-match": "^3.0.1",
     "brace-expansion": "^2.0.1",
     "concat-map": "^0.0.2",
     "fs.realpath": "^1.0.0",
