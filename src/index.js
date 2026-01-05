@@ -12,12 +12,12 @@ export default function uniqunize(array, callback) {
   /** @type {T[]} */
   const uniqueArray = []
 
-  for (const index in array) {
-    const value = callback ? callback(array[index]) : array[index]
+  for (const item of array) {
+    const value = callback ? callback(item) : item
 
     if (!valuesSeen.includes(value)) {
       valuesSeen.push(value)
-      uniqueArray.push(array[index])
+      uniqueArray.push(item)
     }
   }
 
