@@ -1,4 +1,4 @@
-const uniqunize = require("../index.cjs")
+import uniqunize from "../src/index.js"
 
 describe("uniqunize", () => {
   it("returns unique values when not given a callback", () => {

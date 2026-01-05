@@ -1,8 +1,22 @@
 {
   "name": "uniqunize",
   "version": "1.0.1",
-  "main": "index.cjs",
+  "type": "module",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./build/index.d.ts",
+      "import": "./build/index.js"
+    }
+  },
+  "files": [
+    "build"
+  ],
   "scripts": {
+    "lint": "eslint \"src/**/*.js\"",
+    "typecheck": "tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.build.json",
     "test": "jasmine"
   },
   "repository": {
@@ -16,7 +30,10 @@
   },
   "homepage": "https://github.com/kaspernj/uniqunize#readme",
   "devDependencies": {
-    "jasmine": "^5.0.0"
+    "eslint": "^9.39.2",
+    "eslint-plugin-jsdoc": "^48.11.0",
+    "jasmine": "^5.0.0",
+    "typescript": "^5.9.3"
   },
   "dependencies": {
     "balanced-match": "^3.0.1",
@@ -32,5 +49,5 @@
     "path-is-absolute": "^2.0.0",
     "wrappy": "^1.0.2"
   },
-  "description": ""
+  "description": "Return unique items from an array, with optional projection for comparisons."
 }
