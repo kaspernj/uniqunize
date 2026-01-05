@@ -49,5 +49,5 @@
     "path-is-absolute": "^2.0.0",
     "wrappy": "^1.0.2"
   },
-  "description": ""
+  "description": "Return unique items from an array, with optional projection for comparisons."
 }
