@@ -17,6 +17,7 @@
     "lint": "eslint \"src/**/*.js\"",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "build": "tsc -p tsconfig.json",
+    "release:patch": "npm run build && npm version patch && git push --follow-tags origin HEAD && npm publish",
     "test": "jasmine"
   },
   "repository": {
