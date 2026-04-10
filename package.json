@@ -38,19 +38,5 @@
     "jasmine": "^6.0.0",
     "typescript": "^6.0.2"
   },
-  "dependencies": {
-    "balanced-match": "^4.0.2",
-    "brace-expansion": "^5.0.2",
-    "concat-map": "^0.0.2",
-    "fs.realpath": "^1.0.0",
-    "glob": "^13.0.0",
-    "inflight": "^1.0.6",
-    "inherits": "^2.0.4",
-    "jasmine-core": "^6.0.1",
-    "minimatch": "^10.0.1",
-    "once": "^1.4.0",
-    "path-is-absolute": "^2.0.0",
-    "wrappy": "^1.0.2"
-  },
   "description": "Return unique items from an array, with optional projection for comparisons."
 }
