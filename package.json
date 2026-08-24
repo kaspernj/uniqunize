@@ -35,7 +35,7 @@
   "devDependencies": {
     "eslint": "^10.0.2",
     "eslint-plugin-jsdoc": "^64.0.2",
-    "jasmine": "^6.0.0",
+    "jasmine": "^7.0.0",
     "release-patch": "^1.0.0",
     "typescript": "^7.0.2"
   },
